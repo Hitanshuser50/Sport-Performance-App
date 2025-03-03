@@ -24,7 +24,7 @@ A comprehensive sports performance tracking application built with Flutter and F
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone [[repository-url]](https://github.com/Hitanshuser50/Sport-Performance-App.git)
 ```
 
 2. Install dependencies:
