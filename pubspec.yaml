@@ -1,0 +1,62 @@
+name: sportsmate
+description: A comprehensive sports performance tracking application
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  google_sign_in: ^6.2.1
+  provider: ^6.1.1
+  flutter_local_notifications: ^16.3.0
+  fl_chart: ^0.65.0
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.0
+  shared_preferences: ^2.2.2
+  firebase_messaging: ^14.7.10
+  firebase_storage: ^11.6.0
+  path_provider: ^2.1.2
+  image_picker: ^1.0.7
+  connectivity_plus: ^5.0.2
+  flutter_native_splash: ^2.3.9
+  flutter_launcher_icons: ^0.13.1
+  url_launcher: ^6.2.3
+  package_info_plus: ^5.0.1
+  permission_handler: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#4CAF50"
+  image: assets/images/splash.png
+  android_12:
+    image: assets/images/splash.png
+    icon_background_color: "#4CAF50"
+  ios: true
+  web: false
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#4CAF50"
+  adaptive_icon_foreground: "assets/images/icon_foreground.png"
